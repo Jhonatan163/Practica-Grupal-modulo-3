@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 30px 0;
+  background-image: url('./red-neuronal-artificial.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#contenedor_formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+ 
+}
+
+.boton_agregar_categorias {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+#formulario {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+#contenedor_listado {
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  height: fit-content;
+  overflow: auto;
+}
